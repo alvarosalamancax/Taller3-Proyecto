@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class MenuManager : MonoBehaviour
 {
-    public int XR
- public void BotonStart(string XR)
+    public int numeroEscena;
+ public void cambiarEscena()
     {
-        SceneManager.LoadScene(XR);
+        SceneManager.LoadScene(numeroEscena);
     }
-    public void BotonQuit()
+    public void Salir()
     {
    
         Application.Quit();
