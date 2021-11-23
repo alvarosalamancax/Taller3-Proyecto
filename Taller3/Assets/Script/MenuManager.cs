@@ -5,7 +5,7 @@ using UnityEngine;
 public class MenuManager : MonoBehaviour
 {
     public int XR
- public void BotonStart()
+ public void BotonStart(string XR)
     {
         SceneManager.LoadScene(XR);
     }
